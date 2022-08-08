@@ -1,5 +1,6 @@
 import { Form, Discussions } from "./components";
 import { useEffect, useState } from "react";
+import Check from './Check';
 
 function App() {
   const domain = "http://localhost:3001";
@@ -49,7 +50,8 @@ function App() {
 
   return (
     <>
-      <h1>My Agora States!!!@@@!!</h1>
+      <h1>My Agora States!</h1>
+      <Check></Check>
       <Form addDiscussion={addDiscussion}></Form>
       <Discussions
         discussions={discussions}
