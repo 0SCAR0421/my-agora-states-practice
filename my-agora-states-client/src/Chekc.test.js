@@ -10,5 +10,5 @@ import Check from './Check';
 
 it('renders', () => {
   render(<Check />)
-  screen.getByText(/^Checkdd/);
+  screen.getByText(/^Check/);
 })
